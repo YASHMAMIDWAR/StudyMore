@@ -30,61 +30,21 @@
 }
 .choices {
   background-color: rgb(40, 40, 40);
-  height: 600px;
+  height: 800px;
 }
-.cont1 {
-  position: relative;
-  margin-top: 50px;
-  width: 500px;
-  height: 300px;
-}
-.cont2 {
-  margin-top: 50px;
-  width: 500px;
-  height: 300px;
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.5s ease;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
-.cont:hover .overlay {
-  display: block;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.jee {
-  position: absolute;
-  width: 500px;
-  height: 300px;
-  left: 0;
-}
-
-.button {
-  position: absolute;
-  width: 500px;
-  left: 0;
-  top: 180px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.button a {
-  width: 200px;
-  padding: 12px 48px;
-  text-align: center;
-  color: white;
-  border: solid 2px white;
-  z-index: 1;
-}
-
-.cont:hover .button {
-  opacity: 1;
+.about-section {
+  background-color: rgb(40, 40, 40);
+  height: 400px;
+  padding-top: 80px;
 }
