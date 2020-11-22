@@ -314,6 +314,7 @@
 .affix {
   padding: 0;
   background-color: #111;
+  height: 100px;
 }
 
 .carousel-inner > .item > img,
