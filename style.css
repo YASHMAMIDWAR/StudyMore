@@ -398,3 +398,9 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+.logo {
+  position: relative;
+  top: -40px;
+  right: 370px;
+}

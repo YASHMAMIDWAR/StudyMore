@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study More</title>
+    <link rel="icon" href="img/logo3.png" type="image-icon" />
+    <link rel="stylesheet" href="CSS/predictor.css" />
+  </head>
+  <div>
+    <style type="text/css">
+      label + label {
+        margin-left: 20px;
+      }
+    </style>
+    <div class="top">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo3.png" alt="" width="130" />
+          </a>
+        </div>
+        <nav>
+          <ul class="navigation">
+            <a href="predictor.html">
+              <li
+                style="
+                  color: white;
+                  display: inline-block;
+                  padding-top: 24px;
+                  padding-right: 150px;
+                  font-size: 28px;
+                  font-weight: 600;
+                  font-family: raleway;
+                "
+              >
+                College predictor
+              </li>
+            </a>
+          </ul>
+        </nav>
+      </div>
+      <div class="heading">
+        <p>NEET College Predictor 2021</p>
+        <div
+          class="heading2"
+          style="position: relative; top: -20px; font-size: 20px !important"
+        >
+          <p>
+            Enter your NEET rank to predict colleges that you can get admission in
+          </p>
+          <div class="heading3">
+            <ul>
+              <li
+                style="
+                  font-size: 17px !important;
+                  position: relative;
+                  right: 30px;
+                  padding-bottom: 5px;
+                "
+              >
+              Updated with 2020 closing ranks/score.
+              </li>
+              <li
+                style="
+                  font-size: 17px !important;
+                  position: relative;
+                  right: 30px;
+                  padding-bottom: 5px;
+                "
+              >
+              Get information of NEET Colleges Cut off, Fees, Admission and Placement Reviews.
+              </li>
+              <li
+                style="
+                  font-size: 17px !important;
+                  position: relative;
+                  right: 30px;
+                  padding-bottom: 5px;
+                "
+              >
+              Get colleges you may crack basis your category and home state rank/score also
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="lin">
+        <div class="data">
+          <h2 style="padding-left: 30px; padding-top: 50px">
+            Enter NEET Rank
+          </h2>
+
+          <p style="padding-left: 30px; margin-top: -11px">
+            Giving your exam rank will help us recommend you better colleges and
+            admissions. If you don't have actual rank, then enter expected rank.
+          </p>
+          <h3 style="padding-left: 30px; margin-top: 40px">NEET</h3>
+
+          <div class="input-field">
+            <input
+              type="number"
+              min="1"
+              max="160000"
+              placeholder="Rank"
+              size="20"
+              required
+            />
+          </div>
+
+          <h3 style="padding-left: 25px; padding-top: 20px">Gender</h3>
+          <div class="input-field2">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label>
+          </div>
+          <h3 style="padding-left: 25px; padding-top: 20px">Category</h3>
+          <div class="input-field3">
+            <p class="drop">
+              <span class="ng-valid">
+                <select
+                  id="selectTest"
+                  style="font-size: medium; width: 270px; height: 35px"
+                >
+                  <option>General</option>
+                  <option>OBC</option>
+                  <option>SC</option>
+                  <option>ST</option>
+                  <option>PWD</option>
+                  <option>EWS</option>
+                </select>
+              </span>
+            </p>
+          </div>
+          <h3 style="padding-left: 25px; padding-top: 20px">Domicile State</h3>
+          <div class="input-field3">
+            <p class="drop">
+              <span class="ng-valid">
+                <select
+                  id="selectTest"
+                  style="font-size: medium; width: 270px; height: 35px"
+                >
+                  <option value="None">Choose Domicile State</option>
+                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                  <option value="Andaman and Nicobar Islands">
+                    Andaman and Nicobar Islands
+                  </option>
+                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                  <option value="Assam">Assam</option>
+                  <option value="Bihar">Bihar</option>
+                  <option value="Chandigarh">Chandigarh</option>
+                  <option value="Chhattisgarh">Chhattisgarh</option>
+                  <option value="Dadar and Nagar Haveli">
+                    Dadar and Nagar Haveli
+                  </option>
+                  <option value="Daman and Diu">Daman and Diu</option>
+                  <option value="Delhi">Delhi</option>
+                  <option value="Lakshadweep">Lakshadweep</option>
+                  <option value="Puducherry">Puducherry</option>
+                  <option value="Goa">Goa</option>
+                  <option value="Gujarat">Gujarat</option>
+                  <option value="Haryana">Haryana</option>
+                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                  <option value="Jharkhand">Jharkhand</option>
+                  <option value="Karnataka">Karnataka</option>
+                  <option value="Kerala">Kerala</option>
+                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                  <option value="Maharashtra">Maharashtra</option>
+                  <option value="Manipur">Manipur</option>
+                  <option value="Meghalaya">Meghalaya</option>
+                  <option value="Mizoram">Mizoram</option>
+                  <option value="Nagaland">Nagaland</option>
+                  <option value="Odisha">Odisha</option>
+                  <option value="Punjab">Punjab</option>
+                  <option value="Rajasthan">Rajasthan</option>
+                  <option value="Sikkim">Sikkim</option>
+                  <option value="Tamil Nadu">Tamil Nadu</option>
+                  <option value="Telangana">Telangana</option>
+                  <option value="Tripura">Tripura</option>
+                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                  <option value="Uttarakhand">Uttarakhand</option>
+                  <option value="West Bengal">West Bengal</option>
+                </select>
+              </span>
+            </p>
+          </div>
+
+          <div class="side">
+            <h3 style="padding-left: 30px; margin-top: 40px">NEET</h3>
+
+            <div class="input-field">
+              <input
+                type="number"
+                min="1"
+                max="160000"
+                placeholder="Percentile"
+                size="18"
+                required
+              />
+            </div>
+            <p style="position: relative; top: -40px; left: -105px;">---OR---</p>
+            <img src="img/predictor.png" style="position: relative; top: -220px; right: 510px;">
+          </div>
+            <div class="predict">
+              <a href="#">
+              <button
+                class="buttons"
+                style="background-color: #ff3714; height: 40px; width: 180px"
+              >
+                <span style="color: white; font-size: medium"
+                  >Predict My College
+                </span>
+              </button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  </body>
+</html>

@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic);
-/* Navbar section */
 
 .nav {
   width: 100%;
@@ -438,25 +437,6 @@ body {
   padding-bottom: 129px;
 }
 
-@media (max-width: 767px) {
-  .footer .footer_top {
-    padding-top: 60px;
-    padding-bottom: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .footer .footer_top .footer_widget {
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .footer .footer_top .footer_widget {
-    margin-bottom: 30px;
-  }
-}
-
 .footer .footer_top .footer_widget .links {
   position: relative;
   top: -14px;
@@ -471,24 +451,12 @@ body {
   font-family: "Teko", sans-serif;
 }
 
-@media (max-width: 767px) {
-  .footer .footer_top .footer_widget .footer_title {
-    margin-bottom: 20px;
-  }
-}
-
 .footer .footer_top .footer_widget .footer_logo {
   font-size: 22px;
   font-weight: 400;
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 40px;
-}
-
-@media (max-width: 767px) {
-  .footer .footer_top .footer_widget .footer_logo {
-    margin-bottom: 20px;
-  }
 }
 
 .footer .footer_top .footer_widget p {
